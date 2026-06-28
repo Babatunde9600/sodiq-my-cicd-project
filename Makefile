@@ -2,7 +2,7 @@ CC = arm-none-eabi-gcc
 
 TARGET = firmware
 
-SRC = src/main.c
+SRC = src/app/main.c
 
 all:
 	$(CC) $(SRC) -o $(TARGET).elf
